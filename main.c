@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 int main() {
-  int a, b, sum;
+  float a, b, sum;
   
-  printf("Enter first integer: ");
-  scanf("%d", &a);
-  printf("Enter second integer: ");
-  scanf("%d", &b);
+  printf("Enter first real number: ");
+  scanf("%f", &a);
+  printf("Enter second real number: ");
+  scanf("%f", &b);
   
   sum = a + b;
   
-  printf("The sum of two numbers is %d\n", sum);
+  printf("The sum of two numbers is %f\n", sum);
   
   return 0;
 }
